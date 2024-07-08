@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="text-container">
+      <h1>Guess The Number Game</h1>
+      <p>Guess the number between 1 and 100</p>
+      <p>You have 10 attemopt to guess the correct number</p>
+    </div>
+  </div>
+  <div class="form-container">
+    <h1>Guess a number</h1>
+    <form class="form">
+      <label for="guess" id="guessField"> Guess a Number</label>
+      <input type="text" id="guess" class="guessField" placeholder="Enter a number">
+      <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+    </form>
+    <div class="resultParas">
+      <p>Previous Guesses: <span class="guesses"></span></p>
+      <p>Guesses remianing: <span class="lastResult">10</span></p>
+      <p class="lowOrHigh"></p>
+    </div>
+  </div>
+
+  <script src=" script.js">
+  </script>
+</body>
+
+</html>
